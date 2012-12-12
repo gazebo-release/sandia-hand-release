@@ -1,16 +1,16 @@
 Source: sandia-hand
-Standards-Version: 5.0.2
+Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
 Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), gazebo (>= 1.2.0), ros-fuerte-pr2-mechanism, ros-fuerte-std-msgs, ros-fuerte-common-msgs, ros-fuerte-image-common, ros-fuerte-geometry, ros-fuerte-pr2-controllers, ros-fuerte-geometry-experimental, ros-fuerte-robot-model-visualization
+Build-Depends: cmake, debhelper (>= 7.0.50~)
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand
 Architecture: any
 Section: devel
 Priority: extra
-Depends: gazebo (>= 1.2.0), ros-fuerte-pr2-mechanism, ros-fuerte-std-msgs, ros-fuerte-common-msgs, ros-fuerte-image-common, ros-fuerte-geometry, ros-fuerte-pr2-controllers, ros-fuerte-geometry-experimental, ros-fuerte-robot-model-visualization, ${misc:Depends}
+Depends: gazebo (>= 1.2.0), ros-fuerte-xacro, ros-fuerte-ros-comm, ${misc:Depends}
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/

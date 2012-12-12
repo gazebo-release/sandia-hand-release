@@ -1,3 +1,9 @@
+sandia-hand (5.0.2-0ubuntu1) precise; urgency=high
+
+  * Place meshes inside the sandia_hand_description ROS package
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 12 Dec 2012 11:27:00 -0700
+
 sandia-hand (5.0.1-0ubuntu1) precise; urgency=high
 
   * Fix references to ROS package name in URDF

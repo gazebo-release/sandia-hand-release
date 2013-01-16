@@ -1,3 +1,10 @@
+sandia-hand (5.1.1) precise; urgency=high
+
+  * firmware progress: ethernet tx/rx through fpga, power switching, comms tx
+  * cmake generates a configure file to export ROS_PACKAGE_PATH
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Wed, 16 Jan 2013 14:44:00 -0700
+
 sandia-hand (5.1.0) precise; urgency=high
 
   * add auto-generation of gazebo models during build time

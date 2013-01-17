@@ -13,9 +13,9 @@ export DH_OPTIONS=-v
 %:
 	dh  $@
 
-#override_dh_auto_configure:
-#	# Pull in ROS configuration
-#	if [ -f "/opt/ros/fuerte/setup.sh" ]; then . "/opt/ros/fuerte/setup.sh"; fi && \
+override_dh_auto_configure:
+	# Pull in ROS configuration
+	if [ -f "/opt/ros/fuerte/setup.sh" ]; then . "/opt/ros/fuerte/setup.sh"; fi && \
 #	dh_auto_configure
 
 override_dh_auto_build:

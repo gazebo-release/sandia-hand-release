@@ -1,3 +1,9 @@
+sandia-hand (5.1.2) precise; urgency=high
+
+  * clean up cmake configure file generation and version the output path
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Thu, 17 Jan 2013 14:44:00 -0700
+
 sandia-hand (5.1.1) precise; urgency=high
 
   * firmware progress: ethernet tx/rx through fpga, power switching, comms tx

@@ -19,7 +19,7 @@ override_dh_auto_configure:
 	dh_auto_configure
 
 override_dh_auto_build:
-	if [ -f "/opt/ros/fuerte/setup.sh" ]; then . "/opt/ros/fuerte/setup.sh"; fi && export ROS_PACKAGE_PATH=`pwd`:$$ROS_PACKAGE_PATH && \
+	if [ -f "/opt/ros/fuerte/setup.sh" ]; then . "/opt/ros/fuerte/setup.sh"; fi && export ROS_PACKAGE_PATH=`pwd`:/usr/share/osrf-common-1.0/ros:$$ROS_PACKAGE_PATH && \
 	dh_auto_build
 	
 

@@ -1,3 +1,9 @@
+sandia-hand (5.1.5) precise; urgency=high
+
+  * add hardware driver package to the sandia-hand build and deb
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 22 Jan 2013 20:00:00 -0700
+
 sandia-hand (5.1.4) precise; urgency=high
 
   * add a simple eigengrasp controller and some strawman gains for gazebo

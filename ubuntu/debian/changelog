@@ -1,3 +1,9 @@
+sandia-hand (5.1.4) precise; urgency=high
+
+  * add a simple eigengrasp controller and some strawman gains for gazebo
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 22 Jan 2013 17:23:00 -0700
+
 sandia-hand (5.1.3) precise; urgency=high
 
   * fix install location of sandia_hand_teleop

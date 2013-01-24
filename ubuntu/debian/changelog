@@ -1,3 +1,9 @@
+sandia-hand (5.1.7) precise; urgency=high
+
+  * remove Gazebo dependency
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Thu, 24 Jan 2013 13:50:00 -0700
+
 sandia-hand (5.1.6) precise; urgency=high
 
   * stream video from the cameras in sandia_hand_driver

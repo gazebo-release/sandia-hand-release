@@ -1,3 +1,9 @@
+sandia-hand (5.1.6) precise; urgency=high
+
+  * stream video from the cameras in sandia_hand_driver
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Wed, 23 Jan 2013 16:35:00 -0700
+
 sandia-hand (5.1.5) precise; urgency=high
 
   * add hardware driver package to the sandia-hand build and deb

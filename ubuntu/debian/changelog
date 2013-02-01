@@ -1,3 +1,9 @@
+sandia-hand (5.1.8) precise; urgency=high
+
+  * install the sandia_hand_msgs generated services
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Thu, 31 Jan 2013 20:35:00 -0700
+
 sandia-hand (5.1.7) precise; urgency=high
 
   * remove Gazebo dependency

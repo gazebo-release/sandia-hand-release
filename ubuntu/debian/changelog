@@ -1,3 +1,10 @@
+sandia-hand (5.1.9) precise; urgency=high
+
+  * various firmware and driver updates
+  * interia and friction updates to simulation models
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 26 Feb 2013 14:57:00 -0700
+
 sandia-hand (5.1.8) precise; urgency=high
 
   * install the sandia_hand_msgs generated services

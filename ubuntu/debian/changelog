@@ -1,4 +1,4 @@
-sandia-hand (5.1.9) precise; urgency=high
+sandia-hand (5.1.9-1~precise) precise; urgency=high
 
   * various firmware and driver updates
   * interia and friction updates to simulation models

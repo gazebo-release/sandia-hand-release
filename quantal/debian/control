@@ -3,14 +3,14 @@ Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
 Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-xacro, ros-groovy-ros, osrf-common
+Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-xacro, ros-groovy-ros, ros-groovy-image-common, osrf-common-prerelease
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand-prerelease
 Architecture: any
 Section: devel
 Priority: extra
-Depends: gazebo-prerelease (>= 1.5.0), ros-groovy-xacro, ros-groovy-ros-comm, osrf-common, ${misc:Depends}
+Depends: gazebo-prerelease (>= 1.5.0), ros-groovy-xacro, ros-groovy-ros-comm, ros-groovy-image-common, osrf-common-prerelease, ${misc:Depends}
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/

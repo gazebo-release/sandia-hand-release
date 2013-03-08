@@ -15,7 +15,7 @@ export DH_OPTIONS=-v
 
 override_dh_auto_configure:
 	# Pull in ROS configuration
-	. "/opt/ros/quantal/setup.sh" ] && \
+	. "/opt/ros/groovy/setup.sh" ] && \
 	dh_auto_configure
 
 override_dh_auto_build:

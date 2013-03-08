@@ -1,3 +1,9 @@
+sandia-hand-prerelease (5.1.10-2~precise) precise; urgency=high
+
+  * Prerelease 5.1.10-2. Fix typo in dependencies.
+
+ -- Jose Luis Rivero <jrivero@foundation.org>  Fri, 08 Mar 2013 09:30:00 -0700
+
 sandia-hand-prerelease (5.1.10-1~precise) precise; urgency=high
 
   * Prerelease 5.1.10-1

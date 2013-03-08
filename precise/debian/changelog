@@ -1,3 +1,9 @@
+sandia-hand-prerelease (5.2.0-1~precise) precise; urgency=high
+
+  * Prerelease 5.2.0-1
+
+ -- Jose Luis Rivero <jrivero@foundation.org>  Fri, 08 Mar 2013 09:30:00 -0700
+
 sandia-hand (5.1.1) precise; urgency=high
 
   * firmware progress: ethernet tx/rx through fpga, power switching, comms tx

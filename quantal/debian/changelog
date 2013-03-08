@@ -1,50 +1,6 @@
-sandia-hand (5.1.1) precise; urgency=high
+sandia-hand-prerelease (5.2.0-1~quantal) quantal; urgency=high
 
-  * firmware progress: ethernet tx/rx through fpga, power switching, comms tx
-  * cmake generates a configure file to export ROS_PACKAGE_PATH
+  * Prerelease 5.2.0-1
 
- -- Morgan Quigley <morgan@osrfoundation.org>  Wed, 16 Jan 2013 14:44:00 -0700
+ -- Jose Luis Rivero <jrivero@foundation.org>  Fri, 08 Mar 2013 09:30:00 -0700
 
-sandia-hand (5.1.0) precise; urgency=high
-
-  * add auto-generation of gazebo models during build time
-  * add sandia_hand_teleop package to allow minimalist Eigengrasp-based control
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Thu, 20 Dec 2012 16:27:00 -0700
-
-sandia-hand (5.0.5) precise; urgency=high
-
-  * no-op. release fix
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 12 Dec 2012 16:36:00 -0700
-
-sandia-hand (5.0.4) precise; urgency=high
-
-  * move to /usr/share/sandia-hand with no version number attached
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 12 Dec 2012 16:36:00 -0700
-
-sandia-hand (5.0.3) precise; urgency=high
-
-  * testing release toolchain
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 12 Dec 2012 15:58:00 -0700
-
-sandia-hand (5.0.2-0ubuntu1) precise; urgency=high
-
-  * Place meshes inside the sandia_hand_description ROS package
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Tue, 12 Dec 2012 11:27:00 -0700
-
-sandia-hand (5.0.1-0ubuntu1) precise; urgency=high
-
-  * Fix references to ROS package name in URDF
-  * Simplify mesh directory structure
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Mon, 09 Dec 2012 16:27:00 -0700
-
-sandia-hand (5.0.0-0ubuntu1) precise; urgency=high
-
-  * First try at release
-
- -- Morgan Quigley <morgan@osrfoundation.org>  Mon, 09 Dec 2012 16:27:00 -0700

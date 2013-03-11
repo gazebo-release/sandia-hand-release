@@ -10,7 +10,7 @@ Package: sandia-hand
 Architecture: any
 Section: devel
 Priority: extra
-Depends: gazebo (>= 1.5.0), ros-groovy-xacro, ros-groovy-ros-comm, ros-groovy-image-common, osrf-common, ${misc:Depends}
+Depends: ros-groovy-xacro, ros-groovy-ros-comm, ros-groovy-image-common, osrf-common, ${misc:Depends}
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/

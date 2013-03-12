@@ -16,7 +16,8 @@ export DH_OPTIONS=-v
 override_dh_auto_configure:
 	# Pull in ROS configuration
 	. "/opt/ros/groovy/setup.sh" ] && \
-	dh_auto_configure
+	dh_auto_configure -- \
+		-DCATKIN_BUILD_BINARY_PACKAGE="1"
 
 override_dh_auto_build:
 	# This needs rosdep init but can not be executing here due to lack of root 

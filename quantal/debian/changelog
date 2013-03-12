@@ -1,3 +1,9 @@
+sandia-hand (5.1.10-2~quantal) quantal; urgency=high
+
+  * Avoid to include catkin files
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Mar 2013 13:57:00 -0700
+
 sandia-hand (5.1.10-1~quantal) quantal; urgency=high
 
   * various firmware and driver updates: bootloaders, etc.

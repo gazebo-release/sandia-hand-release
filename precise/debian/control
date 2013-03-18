@@ -3,14 +3,14 @@ Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
 Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), ros-fuerte-xacro, ros-fuerte-ros, osrf-common, libboost-dev, ros-fuerte-image-common, ros-fuerte-ros-comm, ros-fuerte-common-msgs, avr-libc, avr-gcc
+Build-Depends: cmake, debhelper (>= 7.0.50~), ros-fuerte-xacro, ros-fuerte-ros, osrf-common-nightly, libboost-dev, ros-fuerte-image-common, ros-fuerte-ros-comm, ros-fuerte-common-msgs, avr-libc, avr-gcc
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand-nightly
 Architecture: any
 Section: devel
 Priority: extra
-Depends: ros-fuerte-xacro, ros-fuerte-ros-comm, osrf-common, libboost-dev, ros-fuerte-image-common, ros-fuerte-common-msgs, ${misc:Depends}
+Depends: ros-fuerte-xacro, ros-fuerte-ros-comm, osrf-common-nightly, libboost-dev, ros-fuerte-image-common, ros-fuerte-common-msgs, ${misc:Depends}
 Conflicts: sandia-hand, sandia-hand-prerelease
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.

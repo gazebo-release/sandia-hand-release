@@ -3,14 +3,14 @@ Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
 Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-xacro, ros-groovy-ros, ros-groovy-image-common, osrf-common, avr-gcc, avr-libc
+Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-xacro, ros-groovy-ros, ros-groovy-image-common, osrf-common-nightly, avr-gcc, avr-libc
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand-nightly
 Architecture: any
 Section: devel
 Priority: extra
-Depends: ros-groovy-xacro, ros-groovy-ros-comm, ros-groovy-image-common, osrf-common, ${misc:Depends}
+Depends: ros-groovy-xacro, ros-groovy-ros-comm, ros-groovy-image-common, osrf-common-nightly, ${misc:Depends}
 Conflicts: sandia-hand, sandia-hand-prerelease
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.

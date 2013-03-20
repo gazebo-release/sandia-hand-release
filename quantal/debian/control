@@ -3,7 +3,7 @@ Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
 Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-xacro, ros-groovy-ros, ros-groovy-image-common, osrf-common-nightly, gcc-avr, avr-libc
+Build-Depends: cmake, debhelper (>= 7.0.50~), ros-groovy-xacro, ros-groovy-ros, ros-groovy-image-common, osrf-common-nightly, gcc-avr, avr-libc, libqt4
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand-nightly

@@ -3,7 +3,7 @@ Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
 Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), ros-fuerte-xacro, ros-fuerte-ros, osrf-common-nightly, libboost-dev, ros-fuerte-image-common, ros-fuerte-ros-comm, ros-fuerte-common-msgs, avr-libc, gcc-avr
+Build-Depends: cmake, debhelper (>= 7.0.50~), ros-fuerte-xacro, ros-fuerte-ros, osrf-common-nightly, libboost-dev, ros-fuerte-image-common, ros-fuerte-ros-comm, ros-fuerte-common-msgs, avr-libc, gcc-avr, libqt4-dev
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand-nightly

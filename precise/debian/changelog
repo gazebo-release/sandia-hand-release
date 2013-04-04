@@ -1,3 +1,9 @@
+sandia-hand-prerelease (5.1.11-1~precise) precise; urgency=high
+
+  * Prerelease 5.1.11-1. many updates.
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Thu, 1 Mar 2013 16:37:00 -0700
+
 sandia-hand-prerelease (5.1.10-2~precise) precise; urgency=high
 
   * Prerelease 5.1.10-2. Fix typo in dependencies.

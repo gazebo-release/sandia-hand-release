@@ -1,5 +1,11 @@
 sandia-hand-prerelease (5.1.12-1~quantal) quantal; urgency=high
 
+  * Prerelease 5.1.12-2.
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 5 Apr 2013 08:00:00 -0700
+
+sandia-hand-prerelease (5.1.12-1~quantal) quantal; urgency=high
+
   * Prerelease 5.1.12-1.
 
  -- Brian Gerkey <gerkey@osrfoundation.org>  Thu, 1 Mar 2013 16:37:00 -0700

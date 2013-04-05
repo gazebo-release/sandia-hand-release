@@ -10,7 +10,7 @@ Package: sandia-hand-nightly
 Architecture: any
 Section: devel
 Priority: extra
-Depends: ros-groovy-xacro, ros-groovy-ros-comm, ros-groovy-image-common, osrf-common-nightly, ${misc:Depends}
+Depends: ros-groovy-xacro, ros-groovy-ros-comm, ros-groovy-image-common, osrf-common-nightly, libqtcore4, libqtgui4, ${misc:Depends}
 Conflicts: sandia-hand, sandia-hand-prerelease
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.

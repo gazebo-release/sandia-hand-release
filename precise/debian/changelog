@@ -1,3 +1,9 @@
+sandia-hand (5.1.12-1~precise) precise; urgency=high
+
+  * various
+
+ -- Morgan Quigley <morgan@osrfoundation.org>  Fri, 8 Mar 2013 14:57:00 -0700
+
 sandia-hand (5.1.10-1~precise) precise; urgency=high
 
   * various firmware and driver updates: bootloaders, etc.

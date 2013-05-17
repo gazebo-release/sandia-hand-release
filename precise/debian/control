@@ -11,6 +11,7 @@ Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-fuerte-xacro, ros-fuerte-ros-comm, osrf-common, libboost-dev, ros-fuerte-image-common, ros-fuerte-common-msgs, libqtcore4, libqtgui4, ${misc:Depends}
+Breaks: drcsim (<< 2.6.0)
 Conflicts: sandia-hand-prerelease, sandia-hand-nightly
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.

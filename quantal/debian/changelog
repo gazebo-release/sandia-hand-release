@@ -1,3 +1,9 @@
+sandia-hand (5.1.14-1~quantal) quantal; urgency=high
+
+  * code freeze for VRC
+
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Fri, 17 May 2013 14:57:00 -0700
+
 sandia-hand (5.1.13-1~quantal) quantal; urgency=high
 
   * add noise to hand cameras

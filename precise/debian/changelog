@@ -1,3 +1,9 @@
+sandia-hand (5.1.15-1~precise) precise; urgency=high
+
+  * updated friction parameters to improve grasping for VRC
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Tue, 28 May 2013 15:16:00 -0700
+
 sandia-hand (5.1.14-1~precise) precise; urgency=high
 
   * code freeze for VRC

@@ -1,3 +1,9 @@
+sandia-hand (5.2.0-1~quantal) quantal; urgency=high
+
+  * Catkenized version 
+
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 20 Sep 2013 09:09:00 -0700
+
 sandia-hand (5.1.16-1~quantal) quantal; urgency=high
 
   * fixed issue 7, asymetry in hand geometry

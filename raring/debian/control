@@ -8,7 +8,7 @@ Build-Depends: cmake,
  ros-hydro-xacro,
  ros-hydro-ros,
  ros-hydro-image-common,
- osrf-common (>= 1.1.0),
+ osrf-common-nightly (>= 1.1.0),
  gcc-avr,
  avr-libc,
  libqt4-dev
@@ -21,7 +21,7 @@ Priority: extra
 Depends: ros-hydro-xacro,
  ros-hydro-ros-comm,
  ros-hydro-image-common,
- osrf-common (>= 1.1.0),
+ osrf-common-nightly (>= 1.1.0),
  libqtcore4,
  libqtgui4,
  ${misc:Depends}

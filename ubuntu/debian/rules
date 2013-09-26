@@ -8,7 +8,7 @@
 
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
-export DH_OPTIONS=-v
+export DH_OPTIONS=-v --buildsystem=cmake
 
 %:
 	dh  $@
@@ -17,7 +17,9 @@ override_dh_auto_configure:
 	# Pull in ROS configuration
 	. "/opt/ros/groovy/setup.sh" ] && \
 	dh_auto_configure -- \
-		-DCATKIN_BUILD_BINARY_PACKAGE="1"
+                -DCATKIN_BUILD_BINARY_PACKAGE="1" \
+                -DCMAKE_INSTALL_PREFIX="/opt/ros/groovy" \
+                -DCMAKE_PREFIX_PATH="/opt/ros/groovy"
 
 override_dh_auto_build:
 	# This needs rosdep init but can not be executing here due to lack of root 

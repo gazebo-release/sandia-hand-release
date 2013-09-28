@@ -1,10 +1,10 @@
-sandia-hand (5.2.0-1~raring) raring; urgency=high
+sandia-hand-nightly (5.2.0-1~raring) raring; urgency=high
 
   * Catkenized version 
 
  -- Nate Koenig <nate@osrfoundation.org>  Fri, 20 Sep 2013 09:09:00 -0700
 
-sandia-hand (5.1.16-1~raring) raring; urgency=high
+sandia-hand-nightly (5.1.16-1~raring) raring; urgency=high
 
   * Release 5.1.16-1. First time for raring
 

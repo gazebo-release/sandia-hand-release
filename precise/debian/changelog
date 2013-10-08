@@ -1,3 +1,9 @@
+sandia-hand (5.2.0-2~precise) precise; urgency=high
+
+  * Released -2 version of catkenized package to use with drscim-3.1
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 7 Oct 2013 14:09:00 -0700
+
 sandia-hand (5.2.0-1~precise) precise; urgency=high
 
   * Catkenized version 

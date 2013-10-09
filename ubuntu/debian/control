@@ -8,7 +8,7 @@ Build-Depends: cmake,
  ros-groovy-xacro,
  ros-groovy-ros,
  ros-groovy-image-common,
- osrf-common (>= 1.1.0),
+ osrf-common (>= 1.1.1-2),
  gcc-avr,
  avr-libc,
  libqt4-dev
@@ -25,7 +25,7 @@ Depends: ros-groovy-xacro,
  libqtcore4,
  libqtgui4,
  ${misc:Depends}
-Breaks: drcsim (<< 2.6.0)
+Breaks: drcsim (<= 3.0.0-1)
 Conflicts: sandia-hand-prerelease, sandia-hand-nightly
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.

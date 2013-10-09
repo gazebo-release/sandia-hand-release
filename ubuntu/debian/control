@@ -8,7 +8,7 @@ Build-Depends: cmake,
  ros-groovy-xacro,
  ros-groovy-ros,
  ros-groovy-image-common,
- osrf-common (>= 1.1.0-2),
+ osrf-common (>= 1.1.0-1),
  gcc-avr,
  avr-libc,
  libqt4-dev
@@ -21,7 +21,7 @@ Priority: extra
 Depends: ros-groovy-xacro,
  ros-groovy-ros-comm,
  ros-groovy-image-common,
- osrf-common (>= 1.1.0-2),
+ osrf-common (>= 1.1.0-1),
  libqtcore4,
  libqtgui4,
  ${misc:Depends}

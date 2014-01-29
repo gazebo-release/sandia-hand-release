@@ -32,7 +32,6 @@ Depends: ros-groovy-xacro,
  libqtcore4,
  libqtgui4,
  ${misc:Depends}
-Breaks: drcsim (<< 2.6.0)
 Conflicts: sandia-hand, 
            sandia-hand-nightly
 Replaces: sandia-hand-prerelease (<< 5.2.1-2~)

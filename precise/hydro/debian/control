@@ -21,7 +21,7 @@ Priority: extra
 Depends: ros-hydro-xacro,
  ros-hydro-ros-comm,
  ros-hydro-image-common,
- osrf-common-hydro-prereleaes,
+ osrf-common-hydro-prerelease,
  libqtcore4,
  libqtgui4,
  ${misc:Depends}

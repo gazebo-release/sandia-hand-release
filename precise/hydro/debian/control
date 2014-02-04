@@ -14,14 +14,7 @@ Build-Depends: cmake,
  libqt4-dev
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
-Package: sandia-hand-prerelease
-Depends: sandia-hand-hydro-prerelease, ${misc:Depends}
-Architecture: all
-Section: oldlibs
-Description: transitional dummy package
-  This is a transitional dummy package. It can safely be removed.
-
-Package: sandia-hand-prerelease
+Package: sandia-hand-hydro-prerelease
 Architecture: any
 Section: devel
 Priority: extra

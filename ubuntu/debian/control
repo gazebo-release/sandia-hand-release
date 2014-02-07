@@ -8,25 +8,37 @@ Build-Depends: cmake,
  ros-groovy-xacro,
  ros-groovy-ros,
  ros-groovy-image-common,
- osrf-common (>= 1.1.0-1),
+ osrf-common-groovy,
  gcc-avr,
  avr-libc,
  libqt4-dev
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand
+Depends: sandia-hand-groovy, ${misc:Depends}
+Architecture: all
+Section: oldlibs
+Description: transitional dummy package
+  This is a transitional dummy package. It can safely be removed.
+
+Package: sandia-hand-groovy
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-groovy-xacro,
  ros-groovy-ros-comm,
  ros-groovy-image-common,
- osrf-common (>= 1.1.0-1),
+ osrf-common-groovy,
  libqtcore4,
  libqtgui4,
  ${misc:Depends}
-Breaks: drcsim (<= 3.0.0-1)
-Conflicts: sandia-hand-prerelease, sandia-hand-nightly
+Conflicts: 
+			sandia-hand-hydro,
+			sandia-hand-hydro-prerelease,
+			sandia-hand-groovy-prerelease, 
+			sandia-hand-nightly
+Replaces: sandia-hand (<< 5.2.0-2~)
+Breaks: sandia-hand (<< 5.2.0-2~)
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/

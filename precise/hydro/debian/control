@@ -8,7 +8,7 @@ Build-Depends: cmake,
  ros-hydro-xacro,
  ros-hydro-ros,
  ros-hydro-image-common,
- osrf-common-hydro
+ osrf-common-hydro,
  gcc-avr,
  avr-libc,
  libqt4-dev

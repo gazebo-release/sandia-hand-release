@@ -1,5 +1,5 @@
-sandia-hand-prerelease (5.2.1-2~precise) precise; urgency=high
+sandia-hand (5.2.0-3~precise) precise; urgency=high
 
-  * Prerelease 5.2.1-2.
+  * New package split into groovy and hydro versions in precise
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 30 Sep 2013 08:00:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 7 Jan 2014 04:09:00 -0700

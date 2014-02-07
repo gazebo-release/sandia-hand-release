@@ -1,4 +1,4 @@
-Source: sandia-hand-prerelease
+Source: sandia-hand
 Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
@@ -8,26 +8,30 @@ Build-Depends: cmake,
  ros-hydro-xacro,
  ros-hydro-ros,
  ros-hydro-image-common,
- osrf-common-hydro-prerelease,
+ osrf-common-hydro
  gcc-avr,
  avr-libc,
  libqt4-dev
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
-Package: sandia-hand-hydro-prerelease
+Package: sandia-hand-hydro
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-hydro-xacro,
  ros-hydro-ros-comm,
  ros-hydro-image-common,
- osrf-common-hydro-prerelease,
+ osrf-common-hydro
  libqtcore4,
  libqtgui4,
  ${misc:Depends}
-Conflicts: sandia-hand, sandia-hand-nightly
-Replaces: sandia-hand-prerelease (<< 5.2.1-2~)
-Breaks: sandia-hand-prerelease (<< 5.2.1-2~)
+Conflicts: 
+ sandia-hand-groovy,
+ sandia-hand-hydro-prerelease,
+ sandia-hand-groovy-prerelease, 
+ sandia-hand-nightly
+Replaces: sandia-hand (<< 5.2.0-2~)
+Breaks: sandia-hand (<< 5.2.0-2~)
 Description: Software, firmware, and simulation models for the Sandia Hand
  Software, firmware, and simulation models for the Sandia Hand.
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/

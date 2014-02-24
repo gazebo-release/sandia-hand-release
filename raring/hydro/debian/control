@@ -5,9 +5,9 @@ Section: devel
 Priority: extra
 Build-Depends: cmake,
  debhelper (>= 7.0.50~),
- ros-groovy-xacro,
- ros-groovy-ros,
- ros-groovy-image-common,
+ ros-hydro-xacro,
+ ros-hydro-ros,
+ ros-hydro-image-common,
  osrf-common (>= 1.1.0-1),
  gcc-avr,
  avr-libc,
@@ -18,9 +18,9 @@ Package: sandia-hand
 Architecture: any
 Section: devel
 Priority: extra
-Depends: ros-groovy-xacro,
- ros-groovy-ros-comm,
- ros-groovy-image-common,
+Depends: ros-hydro-xacro,
+ ros-hydro-ros-comm,
+ ros-hydro-image-common,
  osrf-common (>= 1.1.0-1),
  libqtcore4,
  libqtgui4,

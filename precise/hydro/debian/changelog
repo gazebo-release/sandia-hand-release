@@ -1,5 +1,5 @@
-sandia-hand (5.2.0-3~precise) precise; urgency=high
+sandia-hand-hydro-nightly (xxxxx) precise; urgency=high
 
-  * New package split into groovy and hydro versions in precise
+  * Nightly release: xxxxx
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 7 Jan 2014 04:09:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  ddddd

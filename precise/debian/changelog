@@ -1,3 +1,9 @@
+sandia-hand-prerelease (5.3.0-1~precise) precise; urgency=medium
+
+  * sandia-hand-prerelease 5.3.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 15 Aug 2014 00:43:45 +0200
+
 sandia-hand-prerelease (5.2.1-2~precise) precise; urgency=high
 
   * Prerelease 5.2.1-2.

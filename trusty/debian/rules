@@ -29,7 +29,11 @@ override_dh_auto_build:
 	rosdep update && \
         export ROS_PACKAGE_PATH=`pwd`:/usr/share/osrf-common-1.0/ros:$$ROS_PACKAGE_PATH && \
 	dh_auto_build
-	
+
+override_dh_auto_install:
+	# We need ROS for genmsgs 
+	. "/opt/ros/indigo/setup.sh" && \
+	dh_auto_install
 
 override_dh_shlibdeps:
 	# Pull in ROS configuration

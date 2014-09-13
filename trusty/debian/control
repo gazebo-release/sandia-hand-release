@@ -1,4 +1,4 @@
-Source: sandia-hand-prerelease
+Source: sandia-hand
 Standards-Version: 3.9.3
 Maintainer: Morgan Quigley <morgan@osrfoundation.org>
 Section: devel
@@ -8,20 +8,20 @@ Build-Depends: cmake,
  ros-indigo-xacro,
  ros-indigo-ros,
  ros-indigo-image-common,
- osrf-common-prerelease (>=1.1.0-4),
+ osrf-common (>=1.1.0-4),
  gcc-avr,
  avr-libc,
  libqt4-dev
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
-Package: sandia-hand-prerelease
+Package: sandia-hand
 Architecture: any
 Section: devel
 Priority: extra
 Depends: ros-indigo-xacro,
  ros-indigo-ros-comm,
  ros-indigo-image-common,
- osrf-common-prerelease (>=1.1.0-4),
+ osrf-common (>=1.1.0-4),
  libqtcore4,
  libqtgui4,
  ${misc:Depends}

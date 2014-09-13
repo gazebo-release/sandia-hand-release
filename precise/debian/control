@@ -15,7 +15,7 @@ Build-Depends: cmake,
 Homepage: https://share.sandia.gov/news/resources/news_releases/robotic_hand/
 
 Package: sandia-hand-hydro
-Depends: sandia-hand (>=5.2.0-4),
+Depends: sandia-hand (>=5.3.0-1),
          osrf-common (>=1.1.0-4),
          ${misc:Depends}
 Architecture: all

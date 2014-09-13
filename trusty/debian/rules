@@ -15,25 +15,29 @@ export DH_OPTIONS=-v --buildsystem=cmake
 
 override_dh_auto_configure:
 	# Pull in ROS configuration
-	. "/opt/ros/groovy/setup.sh" ] && \
+	. "/opt/ros/indigo/setup.sh" ] && \
 	dh_auto_configure -- \
                 -DCATKIN_BUILD_BINARY_PACKAGE="1" \
-                -DCMAKE_INSTALL_PREFIX="/opt/ros/groovy" \
-                -DCMAKE_PREFIX_PATH="/opt/ros/groovy"
+                -DCMAKE_INSTALL_PREFIX="/opt/ros/indigo" \
+                -DCMAKE_PREFIX_PATH="/opt/ros/indigo"
 
 override_dh_auto_build:
 	# This needs rosdep init but can not be executing here due to lack of root 
 	# perms in dh_build phase (run as pbuilder user). rosdep init should be 
 	# configured in a pbuilder hook (see relase-tools).
-	. "/opt/ros/groovy/setup.sh" && \
+	. "/opt/ros/indigo/setup.sh" && \
 	rosdep update && \
         export ROS_PACKAGE_PATH=`pwd`:/usr/share/osrf-common-1.0/ros:$$ROS_PACKAGE_PATH && \
 	dh_auto_build
-	
+
+override_dh_auto_install:
+	# We need ROS for genmsgs 
+	. "/opt/ros/indigo/setup.sh" && \
+	dh_auto_install
 
 override_dh_shlibdeps:
 	# Pull in ROS configuration
-	. "/opt/ros/groovy/setup.sh" && \
+	. "/opt/ros/indigo/setup.sh" && \
 	dh_shlibdeps
 
 override_dh_auto_test:

@@ -1,6 +1,6 @@
-sandia-hand-prerelease (5.3.0-1~precise) precise; urgency=medium
+sandia-hand (5.3.0-1~precise) precise; urgency=medium
 
-  * sandia-hand-prerelease 5.3.0-1 release
+  * sandia-hand 5.3.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 12 Sep 2014 21:52:44 -0500
 
